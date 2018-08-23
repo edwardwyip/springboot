@@ -24,7 +24,12 @@ public class UserController {
 
     @RequestWrapper
     public void setUserService(){
-        
+
+    }
+
+    @RequestWrapper
+    public void setUser(){
+
     }
 
 }
