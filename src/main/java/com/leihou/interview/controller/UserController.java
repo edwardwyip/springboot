@@ -36,6 +36,11 @@ public class UserController {
     public void setUser2(){
 
     }
+
+    @RequestWrapper
+    public void setUser3(){
+        Integer i = 1;
+    }
 }
 
 
