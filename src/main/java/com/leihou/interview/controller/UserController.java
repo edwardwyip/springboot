@@ -32,6 +32,10 @@ public class UserController {
 
     }
 
+    @RequestWrapper
+    public void setUser2(){
+
+    }
 }
 
 
