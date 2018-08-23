@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.xml.ws.RequestWrapper;
 
 
 @RestController
@@ -20,6 +21,11 @@ public class UserController {
         return "success";
     }
 
+
+    @RequestWrapper
+    public void setUserService(){
+        
+    }
 
 }
 
